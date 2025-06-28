@@ -10,7 +10,8 @@ on:
     branches:
       - main
     paths:
-      - terraform/**    
+      - terraform/**
+  workflow_dispatch:        
 
 
 # credentials for deployment to AWS.
