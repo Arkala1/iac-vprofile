@@ -11,7 +11,7 @@ on:
       - main
     paths:
       - terraform/**
-  workflow_dispatch:        
+      
 
 
 # credentials for deployment to AWS.
